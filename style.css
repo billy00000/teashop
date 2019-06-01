@@ -52,6 +52,7 @@ body{
 .contain p{
     width: 300px;
     margin-top: 80px;
+    font-size: 20px;
 }
 
 .contain a{
@@ -88,6 +89,7 @@ body{
     border: 20px solid white;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    font-size: 40px;
 }
 
 /* 商品介紹 */
