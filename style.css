@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 微軟正黑體;
     color: white;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 html,body{
@@ -35,7 +35,7 @@ body{
     font-size: 20px;
     border-bottom: 1px solid white;   
 }
-.nav ul li:hover{
+.nav ul li a:hover{
     background-color: rgba(231, 67, 89, 0.774);
 }
 .nav #logo{
@@ -79,14 +79,46 @@ body{
 .background{
     background-image:url(icon-about-bac.jpg);
     background-size: cover;
-    height: 500px;
-    width: 100%;
-    margin-top: 100px;
+    margin: 50px auto;
+    background-position: 20% center;
+    height: 580px;
+    width: 90%;
     text-align: center;
-    line-height: 500px;
-    border: 30px solid white;
+    line-height: 580px;
+    border: 20px solid white;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
 
+/* 商品介紹 */
+.product{
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    line-height: 500px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 100px;
+    font-size: 50px;
+   
+}
+.tea{
+    background-image: url(tea.jpg);
+}
+.milk{
+    background-image: url(milk.jpg);
+    background-position: 20% center;
+}
+
+/* 頁尾 */
+/* 頁尾 */
+.footer {
+    text-align: center;
+    background-color: rgba(128, 57, 0, 0.603);
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
 }
