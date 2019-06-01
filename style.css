@@ -122,3 +122,9 @@ body{
     position: fixed;
     bottom: 0;
 }
+
+/* 去廣告*/
+
+img[alt="www.000webhost.com"]{
+    display: none;
+}
