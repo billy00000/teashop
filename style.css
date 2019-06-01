@@ -35,6 +35,9 @@ body{
     font-size: 20px;
     border-bottom: 1px solid white;   
 }
+.nav ul li:hover{
+    background-color: rgba(231, 67, 89, 0.774);
+}
 .nav #logo{
     padding: 10px;
     font-size: 50px;
@@ -60,7 +63,7 @@ body{
     margin-top: 50px;
     text-decoration: none;
     border: 1px solid white;
-    background-color: rgba(231, 67, 89, 0.774)
+    background-color: rgba(231, 67, 89, 0.774);
 }
 .contain a:hover{
     background-color: transparent;
@@ -70,4 +73,20 @@ body{
     width: 300px;
     height: 3px;
     background-color:rgba(255, 255, 255, 0.8);
+}
+
+/* 店鋪資訊 */
+.background{
+    background-image:url(icon-about-bac.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 500px;
+    border: 30px solid white;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
 }
